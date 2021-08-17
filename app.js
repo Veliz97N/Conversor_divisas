@@ -19,4 +19,8 @@ function fromYenToPound(YAN){
     let GBP= EURO*oneEuroIs.GBP;
     return GBP; 
 }
+console.log(fromEuroToDollar(3.5));
+console.log(fromDollarToYen(3.5));
+console.log(fromYenToPound(100));
+
 module.exports={fromEuroToDollar,fromDollarToYen,fromYenToPound};

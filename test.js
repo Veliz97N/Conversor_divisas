@@ -10,7 +10,7 @@ test("3.5 Dollar should be around 373 Yen", function(){
     expect(fromDollarToYen(3.5)).toBeGreaterThanOrEqual(373);
 });
 
-test("100 Yan should be around 11,17 Pounds", function(){
+test("100 Yen should be around 0.62 Pounds", function(){
     const { fromYenToPound } = require('./app.js')
     const dollars = fromYenToPound (100)
      expect(fromYenToPound (100)).toBeGreaterThanOrEqual(0.62);
